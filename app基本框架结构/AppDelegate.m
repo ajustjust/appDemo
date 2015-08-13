@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "RESideMenu.h"
+#import "YHTabBarController.h"
+#import "SideMenuViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,24 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    YHTabBarController *tabBarCV = [[YHTabBarController alloc]init];
+    SideMenuViewController *sideMenuVC = [[SideMenuViewController alloc]init];
+    
+    RESideMenu *menu = [[RESideMenu alloc]initWithContentViewController:tabBarCV leftMenuViewController:sideMenuVC rightMenuViewController:nil];
+    
+    menu.scaleContentView = YES;
+    menu.contentViewScaleValue = 0.95;
+    menu.scaleMenuView = NO;
+    menu.contentViewShadowEnabled = YES;
+    menu.contentViewShadowRadius = 4.5;
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = menu;
+    [self.window makeKeyAndVisible];
+    
+    
+    
     return YES;
 }
 

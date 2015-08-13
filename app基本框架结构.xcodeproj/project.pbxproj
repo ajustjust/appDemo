@@ -9,11 +9,30 @@
 /* Begin PBXBuildFile section */
 		1AD7CAFA1B7C7F15007C0BD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7CAF91B7C7F15007C0BD0 /* main.m */; };
 		1AD7CAFD1B7C7F15007C0BD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7CAFC1B7C7F15007C0BD0 /* AppDelegate.m */; };
-		1AD7CB001B7C7F15007C0BD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7CAFF1B7C7F15007C0BD0 /* ViewController.m */; };
 		1AD7CB031B7C7F15007C0BD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CB011B7C7F15007C0BD0 /* Main.storyboard */; };
 		1AD7CB051B7C7F15007C0BD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CB041B7C7F15007C0BD0 /* Images.xcassets */; };
 		1AD7CB081B7C7F15007C0BD0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CB061B7C7F15007C0BD0 /* LaunchScreen.xib */; };
 		1AD7CB141B7C7F15007C0BD0 /* app______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7CB131B7C7F15007C0BD0 /* app______Tests.m */; };
+		1AD7CB301B7C7FA5007C0BD0 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7CB211B7C7FA5007C0BD0 /* RECommonFunctions.m */; };
+		1AD7CB311B7C7FA5007C0BD0 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7CB231B7C7FA5007C0BD0 /* RESideMenu.m */; };
+		1AD7CB321B7C7FA5007C0BD0 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7CB251B7C7FA5007C0BD0 /* UIViewController+RESideMenu.m */; };
+		1AD7CB341B7C7FA5007C0BD0 /* HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7CB2A1B7C7FA5007C0BD0 /* HomePageController.m */; };
+		1AD7CB351B7C7FA5007C0BD0 /* HomePageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CB2B1B7C7FA5007C0BD0 /* HomePageController.xib */; };
+		1AD7CB3B1B7C80DA007C0BD0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7CB391B7C80DA007C0BD0 /* SecondViewController.m */; };
+		1AD7CB3C1B7C80DA007C0BD0 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CB3A1B7C80DA007C0BD0 /* SecondViewController.xib */; };
+		1AD7CB3F1B7C82A2007C0BD0 /* home_r.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CB3E1B7C82A2007C0BD0 /* home_r.png */; };
+		1AD7CB421B7C82D7007C0BD0 /* buy_r.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CB401B7C82D7007C0BD0 /* buy_r.png */; };
+		1AD7CB431B7C82D7007C0BD0 /* buy_w.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CB411B7C82D7007C0BD0 /* buy_w.png */; };
+		1AD7CB451B7C82F1007C0BD0 /* home_w.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CB441B7C82F1007C0BD0 /* home_w.png */; };
+		1AD7CB481B7C8328007C0BD0 /* category_r.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CB461B7C8328007C0BD0 /* category_r.png */; };
+		1AD7CB491B7C8328007C0BD0 /* category_w.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CB471B7C8328007C0BD0 /* category_w.png */; };
+		1AD7CB4C1B7C8350007C0BD0 /* shopping_r.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CB4A1B7C8350007C0BD0 /* shopping_r.png */; };
+		1AD7CB4D1B7C8350007C0BD0 /* shopping_w.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CB4B1B7C8350007C0BD0 /* shopping_w.png */; };
+		1AD7CB501B7C83CC007C0BD0 /* personal_r.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CB4E1B7C83CC007C0BD0 /* personal_r.png */; };
+		1AD7CB511B7C83CC007C0BD0 /* personal_w.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CB4F1B7C83CC007C0BD0 /* personal_w.png */; };
+		1AD7CB571B7C894D007C0BD0 /* BasicNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7CB541B7C894D007C0BD0 /* BasicNavigationController.m */; };
+		1AD7CB581B7C894D007C0BD0 /* YHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7CB561B7C894D007C0BD0 /* YHTabBarController.m */; };
+		1AD7CB5C1B7C8955007C0BD0 /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7CB5B1B7C8955007C0BD0 /* SideMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +51,40 @@
 		1AD7CAF91B7C7F15007C0BD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1AD7CAFB1B7C7F15007C0BD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1AD7CAFC1B7C7F15007C0BD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1AD7CAFE1B7C7F15007C0BD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1AD7CAFF1B7C7F15007C0BD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1AD7CB021B7C7F15007C0BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AD7CB041B7C7F15007C0BD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1AD7CB071B7C7F15007C0BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1AD7CB0D1B7C7F15007C0BD0 /* app基本框架结构Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "app基本框架结构Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD7CB121B7C7F15007C0BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AD7CB131B7C7F15007C0BD0 /* app______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "app______Tests.m"; sourceTree = "<group>"; };
+		1AD7CB201B7C7FA5007C0BD0 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		1AD7CB211B7C7FA5007C0BD0 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		1AD7CB221B7C7FA5007C0BD0 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		1AD7CB231B7C7FA5007C0BD0 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		1AD7CB241B7C7FA5007C0BD0 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		1AD7CB251B7C7FA5007C0BD0 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		1AD7CB291B7C7FA5007C0BD0 /* HomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageController.h; sourceTree = "<group>"; };
+		1AD7CB2A1B7C7FA5007C0BD0 /* HomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageController.m; sourceTree = "<group>"; };
+		1AD7CB2B1B7C7FA5007C0BD0 /* HomePageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePageController.xib; sourceTree = "<group>"; };
+		1AD7CB381B7C80DA007C0BD0 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1AD7CB391B7C80DA007C0BD0 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1AD7CB3A1B7C80DA007C0BD0 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		1AD7CB3E1B7C82A2007C0BD0 /* home_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_r.png; sourceTree = "<group>"; };
+		1AD7CB401B7C82D7007C0BD0 /* buy_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buy_r.png; sourceTree = "<group>"; };
+		1AD7CB411B7C82D7007C0BD0 /* buy_w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buy_w.png; sourceTree = "<group>"; };
+		1AD7CB441B7C82F1007C0BD0 /* home_w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_w.png; sourceTree = "<group>"; };
+		1AD7CB461B7C8328007C0BD0 /* category_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = category_r.png; sourceTree = "<group>"; };
+		1AD7CB471B7C8328007C0BD0 /* category_w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = category_w.png; sourceTree = "<group>"; };
+		1AD7CB4A1B7C8350007C0BD0 /* shopping_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopping_r.png; sourceTree = "<group>"; };
+		1AD7CB4B1B7C8350007C0BD0 /* shopping_w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopping_w.png; sourceTree = "<group>"; };
+		1AD7CB4E1B7C83CC007C0BD0 /* personal_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personal_r.png; sourceTree = "<group>"; };
+		1AD7CB4F1B7C83CC007C0BD0 /* personal_w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personal_w.png; sourceTree = "<group>"; };
+		1AD7CB531B7C894D007C0BD0 /* BasicNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicNavigationController.h; sourceTree = "<group>"; };
+		1AD7CB541B7C894D007C0BD0 /* BasicNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicNavigationController.m; sourceTree = "<group>"; };
+		1AD7CB551B7C894D007C0BD0 /* YHTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTabBarController.h; sourceTree = "<group>"; };
+		1AD7CB561B7C894D007C0BD0 /* YHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTabBarController.m; sourceTree = "<group>"; };
+		1AD7CB5A1B7C8955007C0BD0 /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuViewController.h; sourceTree = "<group>"; };
+		1AD7CB5B1B7C8955007C0BD0 /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +126,10 @@
 		1AD7CAF61B7C7F15007C0BD0 /* app基本框架结构 */ = {
 			isa = PBXGroup;
 			children = (
+				1AD7CB3D1B7C8291007C0BD0 /* imge */,
+				1AD7CB1D1B7C7FA5007C0BD0 /* class */,
 				1AD7CAFB1B7C7F15007C0BD0 /* AppDelegate.h */,
 				1AD7CAFC1B7C7F15007C0BD0 /* AppDelegate.m */,
-				1AD7CAFE1B7C7F15007C0BD0 /* ViewController.h */,
-				1AD7CAFF1B7C7F15007C0BD0 /* ViewController.m */,
 				1AD7CB011B7C7F15007C0BD0 /* Main.storyboard */,
 				1AD7CB041B7C7F15007C0BD0 /* Images.xcassets */,
 				1AD7CB061B7C7F15007C0BD0 /* LaunchScreen.xib */,
@@ -117,6 +162,88 @@
 				1AD7CB121B7C7F15007C0BD0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AD7CB1D1B7C7FA5007C0BD0 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				1AD7CB1E1B7C7FA5007C0BD0 /* lib */,
+				1AD7CB261B7C7FA5007C0BD0 /* mainController */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		1AD7CB1E1B7C7FA5007C0BD0 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				1AD7CB1F1B7C7FA5007C0BD0 /* RESideMenu */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		1AD7CB1F1B7C7FA5007C0BD0 /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1AD7CB201B7C7FA5007C0BD0 /* RECommonFunctions.h */,
+				1AD7CB211B7C7FA5007C0BD0 /* RECommonFunctions.m */,
+				1AD7CB221B7C7FA5007C0BD0 /* RESideMenu.h */,
+				1AD7CB231B7C7FA5007C0BD0 /* RESideMenu.m */,
+				1AD7CB241B7C7FA5007C0BD0 /* UIViewController+RESideMenu.h */,
+				1AD7CB251B7C7FA5007C0BD0 /* UIViewController+RESideMenu.m */,
+			);
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+		1AD7CB261B7C7FA5007C0BD0 /* mainController */ = {
+			isa = PBXGroup;
+			children = (
+				1AD7CB591B7C8955007C0BD0 /* sideMenu */,
+				1AD7CB521B7C894D007C0BD0 /* Tab Bar */,
+				1AD7CB291B7C7FA5007C0BD0 /* HomePageController.h */,
+				1AD7CB2A1B7C7FA5007C0BD0 /* HomePageController.m */,
+				1AD7CB2B1B7C7FA5007C0BD0 /* HomePageController.xib */,
+				1AD7CB381B7C80DA007C0BD0 /* SecondViewController.h */,
+				1AD7CB391B7C80DA007C0BD0 /* SecondViewController.m */,
+				1AD7CB3A1B7C80DA007C0BD0 /* SecondViewController.xib */,
+			);
+			path = mainController;
+			sourceTree = "<group>";
+		};
+		1AD7CB3D1B7C8291007C0BD0 /* imge */ = {
+			isa = PBXGroup;
+			children = (
+				1AD7CB401B7C82D7007C0BD0 /* buy_r.png */,
+				1AD7CB411B7C82D7007C0BD0 /* buy_w.png */,
+				1AD7CB441B7C82F1007C0BD0 /* home_w.png */,
+				1AD7CB3E1B7C82A2007C0BD0 /* home_r.png */,
+				1AD7CB461B7C8328007C0BD0 /* category_r.png */,
+				1AD7CB471B7C8328007C0BD0 /* category_w.png */,
+				1AD7CB4A1B7C8350007C0BD0 /* shopping_r.png */,
+				1AD7CB4B1B7C8350007C0BD0 /* shopping_w.png */,
+				1AD7CB4E1B7C83CC007C0BD0 /* personal_r.png */,
+				1AD7CB4F1B7C83CC007C0BD0 /* personal_w.png */,
+			);
+			path = imge;
+			sourceTree = "<group>";
+		};
+		1AD7CB521B7C894D007C0BD0 /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				1AD7CB531B7C894D007C0BD0 /* BasicNavigationController.h */,
+				1AD7CB541B7C894D007C0BD0 /* BasicNavigationController.m */,
+				1AD7CB551B7C894D007C0BD0 /* YHTabBarController.h */,
+				1AD7CB561B7C894D007C0BD0 /* YHTabBarController.m */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		1AD7CB591B7C8955007C0BD0 /* sideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1AD7CB5A1B7C8955007C0BD0 /* SideMenuViewController.h */,
+				1AD7CB5B1B7C8955007C0BD0 /* SideMenuViewController.m */,
+			);
+			path = sideMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +326,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AD7CB501B7C83CC007C0BD0 /* personal_r.png in Resources */,
 				1AD7CB031B7C7F15007C0BD0 /* Main.storyboard in Resources */,
+				1AD7CB351B7C7FA5007C0BD0 /* HomePageController.xib in Resources */,
+				1AD7CB511B7C83CC007C0BD0 /* personal_w.png in Resources */,
+				1AD7CB431B7C82D7007C0BD0 /* buy_w.png in Resources */,
 				1AD7CB081B7C7F15007C0BD0 /* LaunchScreen.xib in Resources */,
+				1AD7CB451B7C82F1007C0BD0 /* home_w.png in Resources */,
+				1AD7CB491B7C8328007C0BD0 /* category_w.png in Resources */,
+				1AD7CB4C1B7C8350007C0BD0 /* shopping_r.png in Resources */,
+				1AD7CB3F1B7C82A2007C0BD0 /* home_r.png in Resources */,
+				1AD7CB481B7C8328007C0BD0 /* category_r.png in Resources */,
+				1AD7CB4D1B7C8350007C0BD0 /* shopping_w.png in Resources */,
 				1AD7CB051B7C7F15007C0BD0 /* Images.xcassets in Resources */,
+				1AD7CB3C1B7C80DA007C0BD0 /* SecondViewController.xib in Resources */,
+				1AD7CB421B7C82D7007C0BD0 /* buy_r.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +358,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AD7CB001B7C7F15007C0BD0 /* ViewController.m in Sources */,
+				1AD7CB5C1B7C8955007C0BD0 /* SideMenuViewController.m in Sources */,
+				1AD7CB3B1B7C80DA007C0BD0 /* SecondViewController.m in Sources */,
+				1AD7CB341B7C7FA5007C0BD0 /* HomePageController.m in Sources */,
+				1AD7CB311B7C7FA5007C0BD0 /* RESideMenu.m in Sources */,
 				1AD7CAFD1B7C7F15007C0BD0 /* AppDelegate.m in Sources */,
+				1AD7CB571B7C894D007C0BD0 /* BasicNavigationController.m in Sources */,
+				1AD7CB321B7C7FA5007C0BD0 /* UIViewController+RESideMenu.m in Sources */,
+				1AD7CB581B7C894D007C0BD0 /* YHTabBarController.m in Sources */,
+				1AD7CB301B7C7FA5007C0BD0 /* RECommonFunctions.m in Sources */,
 				1AD7CAFA1B7C7F15007C0BD0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +564,7 @@
 				1AD7CB191B7C7F15007C0BD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AD7CB1A1B7C7F15007C0BD0 /* Build configuration list for PBXNativeTarget "app基本框架结构Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +573,7 @@
 				1AD7CB1C1B7C7F15007C0BD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
