@@ -1,31 +1,28 @@
 //
-//  HomePageController.m
-//  超级模仿秀app
+//  SecondViewController.m
+//  app基本框架结构
 //
 //  Created by xxzx on 15/8/13.
 //  Copyright (c) 2015年 hxyxt. All rights reserved.
 //
 
-#import "HomePageController.h"
-#import "GoodDetialController.h"
-@interface HomePageController ()
+#import "CategoryController.h"
+
+@interface CategoryController ()
 
 @end
 
-@implementation HomePageController
+@implementation CategoryController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
-}
-- (IBAction)jump:(id)sender {
-    
-    GoodDetialController *goodDetialVC = [GoodDetialController new];
-    [self.navigationController pushViewController:goodDetialVC animated:YES];
+    // Do any additional setup after loading the view from its nib.
 }
 
-
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
 
 /*
 #pragma mark - Navigation

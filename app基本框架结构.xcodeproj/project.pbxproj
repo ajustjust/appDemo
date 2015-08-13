@@ -18,8 +18,8 @@
 		1AD7CB321B7C7FA5007C0BD0 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7CB251B7C7FA5007C0BD0 /* UIViewController+RESideMenu.m */; };
 		1AD7CB341B7C7FA5007C0BD0 /* HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7CB2A1B7C7FA5007C0BD0 /* HomePageController.m */; };
 		1AD7CB351B7C7FA5007C0BD0 /* HomePageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CB2B1B7C7FA5007C0BD0 /* HomePageController.xib */; };
-		1AD7CB3B1B7C80DA007C0BD0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7CB391B7C80DA007C0BD0 /* SecondViewController.m */; };
-		1AD7CB3C1B7C80DA007C0BD0 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CB3A1B7C80DA007C0BD0 /* SecondViewController.xib */; };
+		1AD7CB3B1B7C80DA007C0BD0 /* CategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7CB391B7C80DA007C0BD0 /* CategoryController.m */; };
+		1AD7CB3C1B7C80DA007C0BD0 /* CategoryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CB3A1B7C80DA007C0BD0 /* CategoryController.xib */; };
 		1AD7CB3F1B7C82A2007C0BD0 /* home_r.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CB3E1B7C82A2007C0BD0 /* home_r.png */; };
 		1AD7CB421B7C82D7007C0BD0 /* buy_r.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CB401B7C82D7007C0BD0 /* buy_r.png */; };
 		1AD7CB431B7C82D7007C0BD0 /* buy_w.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7CB411B7C82D7007C0BD0 /* buy_w.png */; };
@@ -33,6 +33,20 @@
 		1AD7CB571B7C894D007C0BD0 /* BasicNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7CB541B7C894D007C0BD0 /* BasicNavigationController.m */; };
 		1AD7CB581B7C894D007C0BD0 /* YHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7CB561B7C894D007C0BD0 /* YHTabBarController.m */; };
 		1AD7CB5C1B7C8955007C0BD0 /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7CB5B1B7C8955007C0BD0 /* SideMenuViewController.m */; };
+		FCBE6D8A1B7CD1F1009A3DEB /* SwipableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBE6D851B7CD1F1009A3DEB /* SwipableViewController.m */; };
+		FCBE6D8B1B7CD1F1009A3DEB /* TitleBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBE6D871B7CD1F1009A3DEB /* TitleBarView.m */; };
+		FCBE6D8C1B7CD1F1009A3DEB /* HorizonalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBE6D891B7CD1F1009A3DEB /* HorizonalTableViewController.m */; };
+		FCBE6D921B7CD7AA009A3DEB /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBE6D911B7CD7AA009A3DEB /* UIColor+Util.m */; };
+		FCBE6D971B7CF776009A3DEB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBE6D951B7CF776009A3DEB /* FirstViewController.m */; };
+		FCBE6D981B7CF776009A3DEB /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCBE6D961B7CF776009A3DEB /* FirstViewController.xib */; };
+		FCBE6D9C1B7CF7A9009A3DEB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBE6D9A1B7CF7A9009A3DEB /* SecondViewController.m */; };
+		FCBE6D9D1B7CF7A9009A3DEB /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCBE6D9B1B7CF7A9009A3DEB /* SecondViewController.xib */; };
+		FCBE6DA11B7CF7DD009A3DEB /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBE6D9F1B7CF7DD009A3DEB /* ThirdViewController.m */; };
+		FCBE6DA21B7CF7DD009A3DEB /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCBE6DA01B7CF7DD009A3DEB /* ThirdViewController.xib */; };
+		FCBE6DA61B7CF81A009A3DEB /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBE6DA41B7CF81A009A3DEB /* FourthViewController.m */; };
+		FCBE6DA71B7CF81A009A3DEB /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCBE6DA51B7CF81A009A3DEB /* FourthViewController.xib */; };
+		FCBE6DAB1B7CFBA5009A3DEB /* GoodDetialController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBE6DA91B7CFBA5009A3DEB /* GoodDetialController.m */; };
+		FCBE6DAC1B7CFBA5009A3DEB /* GoodDetialController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCBE6DAA1B7CFBA5009A3DEB /* GoodDetialController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,9 +80,9 @@
 		1AD7CB291B7C7FA5007C0BD0 /* HomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageController.h; sourceTree = "<group>"; };
 		1AD7CB2A1B7C7FA5007C0BD0 /* HomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageController.m; sourceTree = "<group>"; };
 		1AD7CB2B1B7C7FA5007C0BD0 /* HomePageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePageController.xib; sourceTree = "<group>"; };
-		1AD7CB381B7C80DA007C0BD0 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		1AD7CB391B7C80DA007C0BD0 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		1AD7CB3A1B7C80DA007C0BD0 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		1AD7CB381B7C80DA007C0BD0 /* CategoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryController.h; sourceTree = "<group>"; };
+		1AD7CB391B7C80DA007C0BD0 /* CategoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryController.m; sourceTree = "<group>"; };
+		1AD7CB3A1B7C80DA007C0BD0 /* CategoryController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryController.xib; sourceTree = "<group>"; };
 		1AD7CB3E1B7C82A2007C0BD0 /* home_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_r.png; sourceTree = "<group>"; };
 		1AD7CB401B7C82D7007C0BD0 /* buy_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buy_r.png; sourceTree = "<group>"; };
 		1AD7CB411B7C82D7007C0BD0 /* buy_w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buy_w.png; sourceTree = "<group>"; };
@@ -85,6 +99,30 @@
 		1AD7CB561B7C894D007C0BD0 /* YHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTabBarController.m; sourceTree = "<group>"; };
 		1AD7CB5A1B7C8955007C0BD0 /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuViewController.h; sourceTree = "<group>"; };
 		1AD7CB5B1B7C8955007C0BD0 /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuViewController.m; sourceTree = "<group>"; };
+		FCBE6D841B7CD1F1009A3DEB /* SwipableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipableViewController.h; sourceTree = "<group>"; };
+		FCBE6D851B7CD1F1009A3DEB /* SwipableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipableViewController.m; sourceTree = "<group>"; };
+		FCBE6D861B7CD1F1009A3DEB /* TitleBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleBarView.h; sourceTree = "<group>"; };
+		FCBE6D871B7CD1F1009A3DEB /* TitleBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleBarView.m; sourceTree = "<group>"; };
+		FCBE6D881B7CD1F1009A3DEB /* HorizonalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizonalTableViewController.h; sourceTree = "<group>"; };
+		FCBE6D891B7CD1F1009A3DEB /* HorizonalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizonalTableViewController.m; sourceTree = "<group>"; };
+		FCBE6D8D1B7CD432009A3DEB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FCBE6D901B7CD7AA009A3DEB /* UIColor+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
+		FCBE6D911B7CD7AA009A3DEB /* UIColor+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Util.m"; sourceTree = "<group>"; };
+		FCBE6D941B7CF776009A3DEB /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FCBE6D951B7CF776009A3DEB /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FCBE6D961B7CF776009A3DEB /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		FCBE6D991B7CF7A9009A3DEB /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FCBE6D9A1B7CF7A9009A3DEB /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FCBE6D9B1B7CF7A9009A3DEB /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		FCBE6D9E1B7CF7DD009A3DEB /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		FCBE6D9F1B7CF7DD009A3DEB /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		FCBE6DA01B7CF7DD009A3DEB /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		FCBE6DA31B7CF81A009A3DEB /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		FCBE6DA41B7CF81A009A3DEB /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		FCBE6DA51B7CF81A009A3DEB /* FourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
+		FCBE6DA81B7CFBA5009A3DEB /* GoodDetialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodDetialController.h; sourceTree = "<group>"; };
+		FCBE6DA91B7CFBA5009A3DEB /* GoodDetialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodDetialController.m; sourceTree = "<group>"; };
+		FCBE6DAA1B7CFBA5009A3DEB /* GoodDetialController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoodDetialController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +172,7 @@
 				1AD7CB041B7C7F15007C0BD0 /* Images.xcassets */,
 				1AD7CB061B7C7F15007C0BD0 /* LaunchScreen.xib */,
 				1AD7CAF71B7C7F15007C0BD0 /* Supporting Files */,
+				FCBE6D8D1B7CD432009A3DEB /* PrefixHeader.pch */,
 			);
 			path = "app基本框架结构";
 			sourceTree = "<group>";
@@ -167,6 +206,8 @@
 		1AD7CB1D1B7C7FA5007C0BD0 /* class */ = {
 			isa = PBXGroup;
 			children = (
+				FCBE6D931B7CF738009A3DEB /* news */,
+				FCBE6D8E1B7CD78B009A3DEB /* Utils */,
 				1AD7CB1E1B7C7FA5007C0BD0 /* lib */,
 				1AD7CB261B7C7FA5007C0BD0 /* mainController */,
 			);
@@ -197,14 +238,18 @@
 		1AD7CB261B7C7FA5007C0BD0 /* mainController */ = {
 			isa = PBXGroup;
 			children = (
+				FCBE6D831B7CD1AF009A3DEB /* SwipableViewController */,
 				1AD7CB591B7C8955007C0BD0 /* sideMenu */,
 				1AD7CB521B7C894D007C0BD0 /* Tab Bar */,
 				1AD7CB291B7C7FA5007C0BD0 /* HomePageController.h */,
 				1AD7CB2A1B7C7FA5007C0BD0 /* HomePageController.m */,
 				1AD7CB2B1B7C7FA5007C0BD0 /* HomePageController.xib */,
-				1AD7CB381B7C80DA007C0BD0 /* SecondViewController.h */,
-				1AD7CB391B7C80DA007C0BD0 /* SecondViewController.m */,
-				1AD7CB3A1B7C80DA007C0BD0 /* SecondViewController.xib */,
+				1AD7CB381B7C80DA007C0BD0 /* CategoryController.h */,
+				1AD7CB391B7C80DA007C0BD0 /* CategoryController.m */,
+				1AD7CB3A1B7C80DA007C0BD0 /* CategoryController.xib */,
+				FCBE6DA81B7CFBA5009A3DEB /* GoodDetialController.h */,
+				FCBE6DA91B7CFBA5009A3DEB /* GoodDetialController.m */,
+				FCBE6DAA1B7CFBA5009A3DEB /* GoodDetialController.xib */,
 			);
 			path = mainController;
 			sourceTree = "<group>";
@@ -244,6 +289,55 @@
 				1AD7CB5B1B7C8955007C0BD0 /* SideMenuViewController.m */,
 			);
 			path = sideMenu;
+			sourceTree = "<group>";
+		};
+		FCBE6D831B7CD1AF009A3DEB /* SwipableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FCBE6D841B7CD1F1009A3DEB /* SwipableViewController.h */,
+				FCBE6D851B7CD1F1009A3DEB /* SwipableViewController.m */,
+				FCBE6D861B7CD1F1009A3DEB /* TitleBarView.h */,
+				FCBE6D871B7CD1F1009A3DEB /* TitleBarView.m */,
+				FCBE6D881B7CD1F1009A3DEB /* HorizonalTableViewController.h */,
+				FCBE6D891B7CD1F1009A3DEB /* HorizonalTableViewController.m */,
+			);
+			path = SwipableViewController;
+			sourceTree = "<group>";
+		};
+		FCBE6D8E1B7CD78B009A3DEB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FCBE6D8F1B7CD78B009A3DEB /* Catagory */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FCBE6D8F1B7CD78B009A3DEB /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+				FCBE6D901B7CD7AA009A3DEB /* UIColor+Util.h */,
+				FCBE6D911B7CD7AA009A3DEB /* UIColor+Util.m */,
+			);
+			path = Catagory;
+			sourceTree = "<group>";
+		};
+		FCBE6D931B7CF738009A3DEB /* news */ = {
+			isa = PBXGroup;
+			children = (
+				FCBE6D941B7CF776009A3DEB /* FirstViewController.h */,
+				FCBE6D951B7CF776009A3DEB /* FirstViewController.m */,
+				FCBE6D961B7CF776009A3DEB /* FirstViewController.xib */,
+				FCBE6D991B7CF7A9009A3DEB /* SecondViewController.h */,
+				FCBE6D9A1B7CF7A9009A3DEB /* SecondViewController.m */,
+				FCBE6D9B1B7CF7A9009A3DEB /* SecondViewController.xib */,
+				FCBE6D9E1B7CF7DD009A3DEB /* ThirdViewController.h */,
+				FCBE6D9F1B7CF7DD009A3DEB /* ThirdViewController.m */,
+				FCBE6DA01B7CF7DD009A3DEB /* ThirdViewController.xib */,
+				FCBE6DA31B7CF81A009A3DEB /* FourthViewController.h */,
+				FCBE6DA41B7CF81A009A3DEB /* FourthViewController.m */,
+				FCBE6DA51B7CF81A009A3DEB /* FourthViewController.xib */,
+			);
+			path = news;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,12 +420,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCBE6DA71B7CF81A009A3DEB /* FourthViewController.xib in Resources */,
 				1AD7CB501B7C83CC007C0BD0 /* personal_r.png in Resources */,
+				FCBE6D981B7CF776009A3DEB /* FirstViewController.xib in Resources */,
 				1AD7CB031B7C7F15007C0BD0 /* Main.storyboard in Resources */,
 				1AD7CB351B7C7FA5007C0BD0 /* HomePageController.xib in Resources */,
 				1AD7CB511B7C83CC007C0BD0 /* personal_w.png in Resources */,
 				1AD7CB431B7C82D7007C0BD0 /* buy_w.png in Resources */,
 				1AD7CB081B7C7F15007C0BD0 /* LaunchScreen.xib in Resources */,
+				FCBE6D9D1B7CF7A9009A3DEB /* SecondViewController.xib in Resources */,
+				FCBE6DAC1B7CFBA5009A3DEB /* GoodDetialController.xib in Resources */,
+				FCBE6DA21B7CF7DD009A3DEB /* ThirdViewController.xib in Resources */,
 				1AD7CB451B7C82F1007C0BD0 /* home_w.png in Resources */,
 				1AD7CB491B7C8328007C0BD0 /* category_w.png in Resources */,
 				1AD7CB4C1B7C8350007C0BD0 /* shopping_r.png in Resources */,
@@ -339,7 +438,7 @@
 				1AD7CB481B7C8328007C0BD0 /* category_r.png in Resources */,
 				1AD7CB4D1B7C8350007C0BD0 /* shopping_w.png in Resources */,
 				1AD7CB051B7C7F15007C0BD0 /* Images.xcassets in Resources */,
-				1AD7CB3C1B7C80DA007C0BD0 /* SecondViewController.xib in Resources */,
+				1AD7CB3C1B7C80DA007C0BD0 /* CategoryController.xib in Resources */,
 				1AD7CB421B7C82D7007C0BD0 /* buy_r.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,13 +458,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AD7CB5C1B7C8955007C0BD0 /* SideMenuViewController.m in Sources */,
-				1AD7CB3B1B7C80DA007C0BD0 /* SecondViewController.m in Sources */,
+				FCBE6D971B7CF776009A3DEB /* FirstViewController.m in Sources */,
+				FCBE6DAB1B7CFBA5009A3DEB /* GoodDetialController.m in Sources */,
+				1AD7CB3B1B7C80DA007C0BD0 /* CategoryController.m in Sources */,
 				1AD7CB341B7C7FA5007C0BD0 /* HomePageController.m in Sources */,
+				FCBE6D921B7CD7AA009A3DEB /* UIColor+Util.m in Sources */,
+				FCBE6D8B1B7CD1F1009A3DEB /* TitleBarView.m in Sources */,
+				FCBE6DA61B7CF81A009A3DEB /* FourthViewController.m in Sources */,
 				1AD7CB311B7C7FA5007C0BD0 /* RESideMenu.m in Sources */,
+				FCBE6DA11B7CF7DD009A3DEB /* ThirdViewController.m in Sources */,
 				1AD7CAFD1B7C7F15007C0BD0 /* AppDelegate.m in Sources */,
 				1AD7CB571B7C894D007C0BD0 /* BasicNavigationController.m in Sources */,
+				FCBE6D9C1B7CF7A9009A3DEB /* SecondViewController.m in Sources */,
+				FCBE6D8A1B7CD1F1009A3DEB /* SwipableViewController.m in Sources */,
 				1AD7CB321B7C7FA5007C0BD0 /* UIViewController+RESideMenu.m in Sources */,
 				1AD7CB581B7C894D007C0BD0 /* YHTabBarController.m in Sources */,
+				FCBE6D8C1B7CD1F1009A3DEB /* HorizonalTableViewController.m in Sources */,
 				1AD7CB301B7C7FA5007C0BD0 /* RECommonFunctions.m in Sources */,
 				1AD7CAFA1B7C7F15007C0BD0 /* main.m in Sources */,
 			);
@@ -495,6 +603,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/app基本框架结构/PrefixHeader.pch";
 				INFOPLIST_FILE = "app基本框架结构/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +614,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/app基本框架结构/PrefixHeader.pch";
 				INFOPLIST_FILE = "app基本框架结构/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  app基本框架结构
+//
+//  Created by MAC-yanghua on 15/8/13.
+//  Copyright (c) 2015年 hxyxt. All rights reserved.
+//
+
+#ifndef app_______PrefixHeader_pch
+#define app_______PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+#ifdef DEBUG  // 调试阶段
+#define HYLog(...) HYLog(__VA_ARGS__)
+#else // 发布阶段
+#define HYLog(...) //HYLog(__VA_ARGS__)
+#endif
+
+#define   RGB(a,b,c) [UIColor colorWithRed:(a)/255 green:(b)/255 blue:(c)/255 alpha:1.0]
+
+#endif
+
+
+#endif

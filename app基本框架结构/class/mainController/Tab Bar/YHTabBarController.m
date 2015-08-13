@@ -9,8 +9,13 @@
 #import "YHTabBarController.h"
 #import "BasicNavigationController.h"
 #import "HomePageController.h"
-#import "SecondViewController.h"
+#import "CategoryController.h"
+#import "SwipableViewController.h"
 
+#import "FirstViewController.h"
+#import "SecondViewController.h"
+#import "ThirdViewController.h"
+#import "FourthViewController.h"
 @interface YHTabBarController ()
 
 
@@ -24,37 +29,38 @@
 {
     [super viewDidLoad];
     self.tabBar.barTintColor = [UIColor whiteColor];
-    // this will give selected icons and text your apps tint color
     self.tabBar.tintColor = [UIColor redColor];
     
     [self setupChildViewControllers];
 
 }
 
-/**
- normal : 普通状态
- highlighted : 高亮(用户长按的时候达到这个状态)
- disable : enabled = NO
- selected :  selected = YES
- */
 
 
 ///创建各个控制器
 -(void)setupChildViewControllers
 {
-    // 1首页
+    FirstViewController *firstVC = [FirstViewController new];
+    SecondViewController *secondVC = [SecondViewController new];
+    ThirdViewController *thrirdVC = [ThirdViewController new];
+    FourthViewController *fourthVC = [FourthViewController new];
     
+    
+    NSArray *titleArray = @[@"曝光",@"健康",@"保健",@"常识"];
+    NSArray *controllerArray = @[firstVC,secondVC,thrirdVC,fourthVC];
+
     HomePageController* control_1 = [[HomePageController alloc] init];
-    SecondViewController *control_2 = [[SecondViewController alloc]init];
-    HomePageController* control_3 =[[HomePageController alloc] init];
+    CategoryController *control_2 = [[CategoryController alloc]init];
+    SwipableViewController * control_3 =[[SwipableViewController alloc]initWithTitle:@"新闻" andSubTitles:titleArray andControllers:controllerArray underTabbar:NO];
+  
+   
     HomePageController* control_4 =[[HomePageController alloc] init];
     
     [self setupChildViewController:control_1 title:@"首页" imageName:@"home_w" selectdImageName:@"home_r"];
     
-    [self setupChildViewController:control_2 title:@"超值抢" imageName:@"buy_w" selectdImageName:@"buy_r"];
+    [self setupChildViewController:control_2 title:@"分类" imageName:@"category_r" selectdImageName:@"category_r"];
     
-    
-    [self setupChildViewController:control_3 title:@"分类" imageName:@"category_w" selectdImageName:@"category_r"];
+    [self setupChildViewController:control_3 title:@"资讯" imageName:@"buy_w" selectdImageName:@"buy_r"];
     
     
     [self setupChildViewController:control_4  title:@"个人中心" imageName:@"personal_w"
