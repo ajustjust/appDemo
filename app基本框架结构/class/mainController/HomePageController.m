@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+     self.title = @"首页";
     
 }
 - (IBAction)jump:(id)sender {
