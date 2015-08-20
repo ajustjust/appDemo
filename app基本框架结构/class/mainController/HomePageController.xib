@@ -14,9 +14,22 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WN0-0u-niN">
-                    <rect key="frame" x="22" y="202" width="334" height="162"/>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CXz-yG-pQG">
+                    <rect key="frame" x="120" y="341" width="334" height="162"/>
+                    <color key="backgroundColor" red="0.86666673421859741" green="0.88627457618713379" blue="0.20000001788139343" alpha="1" colorSpace="deviceRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="FL0-g4-OLN"/>
+                    </constraints>
+                    <state key="normal" title="演示：右侧滑出现侧边菜单">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WN0-0u-niN">
+                    <rect key="frame" x="0.0" y="83" width="600" height="162"/>
                     <color key="backgroundColor" red="0.55485383310000003" green="0.99215686270000003" blue="0.62010536729999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="162" id="SpX-E3-8BF"/>
+                    </constraints>
                     <state key="normal" title="演示：点击push到下个页面后，向右侧滑返回首页">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -26,6 +39,14 @@
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="CXz-yG-pQG" secondAttribute="bottom" constant="97" id="0fE-jF-x82"/>
+                <constraint firstAttribute="trailing" secondItem="WN0-0u-niN" secondAttribute="trailing" id="Ijn-gK-w0K"/>
+                <constraint firstItem="CXz-yG-pQG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="QBk-nX-ezv"/>
+                <constraint firstAttribute="trailing" secondItem="CXz-yG-pQG" secondAttribute="trailing" constant="50" id="lSQ-Zf-lUR"/>
+                <constraint firstItem="WN0-0u-niN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="luN-Pn-kPr"/>
+                <constraint firstItem="WN0-0u-niN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="83" id="zHu-qE-v8Q"/>
+            </constraints>
             <point key="canvasLocation" x="309" y="385"/>
         </view>
     </objects>

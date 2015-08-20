@@ -15,11 +15,11 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第二个视图控制器" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uex-dl-5PL">
-                    <rect key="frame" x="150" y="203" width="300" height="125"/>
+                    <rect key="frame" x="100" y="203" width="400" height="140"/>
                     <color key="backgroundColor" red="0.90196084980000002" green="0.47450983520000001" blue="0.69411766529999996" alpha="1" colorSpace="deviceRGB"/>
                     <color key="tintColor" red="0.62961096480000001" green="0.90209170309999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="125" id="GPm-5p-oYB"/>
+                        <constraint firstAttribute="height" constant="140" id="9T6-5J-g1P"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -28,9 +28,9 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="uex-dl-5PL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="203" id="I34-aY-sUD"/>
-                <constraint firstItem="uex-dl-5PL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="150" id="SND-R1-iQp"/>
-                <constraint firstAttribute="trailing" secondItem="uex-dl-5PL" secondAttribute="trailing" constant="150" id="UUJ-wI-BWk"/>
+                <constraint firstAttribute="trailing" secondItem="uex-dl-5PL" secondAttribute="trailing" constant="100" id="kyX-is-sDF"/>
+                <constraint firstItem="uex-dl-5PL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="100" id="w84-yZ-dBg"/>
+                <constraint firstItem="uex-dl-5PL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="203" id="ysq-S5-ofJ"/>
             </constraints>
         </view>
     </objects>
